@@ -1,0 +1,19 @@
+language: python
+
+python:
+- "2.7"
+
+- "3.3"
+
+- "3.4"
+- "3.10.9"
+
+before_script:
+- cs src
+
+install:
+
+- pip install -r requirements.txt
+
+script:
+- python Par_ou_Impar.py
