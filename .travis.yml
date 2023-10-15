@@ -1,15 +1,10 @@
 language: python
-
 python:
-- "2.7"
-
-- "3.3"
 
 - "3.4"
-- "3.10.9"
 
 before_script:
 - cd src
 
 script:
-- python Par_ou_Impar.py
+- python testes.py
