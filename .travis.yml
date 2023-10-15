@@ -7,4 +7,4 @@ before_script:
 - cd src
 
 script:
-- python testes.py
+- python Par_ou_Impar.py
