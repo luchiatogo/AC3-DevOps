@@ -9,11 +9,7 @@ python:
 - "3.10.9"
 
 before_script:
-- cs src
-
-install:
-
-- pip install -r requirements.txt
+- cd src
 
 script:
 - python Par_ou_Impar.py
